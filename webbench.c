@@ -7,6 +7,7 @@
 #include <time.h>
 #include <signal.h>
 
+
 volatile int expiredflag = 0;  /* 时间失效标志， 0为未失效 */
 int success = 0;  /* 成功进程数 */
 int failed   = 0;  /* 失败进程数 */
